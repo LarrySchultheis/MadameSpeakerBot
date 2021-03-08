@@ -1,0 +1,13 @@
+{
+	"name": "Madame Speaker",
+	"version": "0.0",
+	"description": "No stimmy til orange man gone... Actually, no stimmy then either.",
+	"main": "nancy.js",
+	"author": "Larald Finehair",
+	"dependencies": {
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"express": "^4.17.1",
+		"node-cron": "^2.0.3",
+		"winston": "^3.3.3"
+	}
+}

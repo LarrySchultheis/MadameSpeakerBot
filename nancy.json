@@ -1,0 +1,9 @@
+{
+	"targetChannel": "bot-directives",
+	"payload": "https://twitter.com/PelosiMorning/status/1368544963290562569?s=20",
+	"targetTime": {
+		"dayOfWeek": "0",
+		"hour": "8",
+		"minute": "30"
+	}
+}
