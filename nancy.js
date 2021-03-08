@@ -14,8 +14,6 @@ logger.level = 'debug';
 app = express()
 
 timeStr = speaker.targetTime.minute + " " + speaker.targetTime.hour + " * * " + speaker.targetTime.dayOfWeek
-logger.info(timeStr)
-
 cron.schedule(timeStr, () => {
     goodMorning()
 });
