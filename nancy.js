@@ -11,6 +11,8 @@ logger.add(new logger.transports.Console, {
 });
 logger.level = 'debug';
 
+logger.info("Nancy script online...")
+
 app = express()
 
 timeStr = speaker.targetTime.minute + " " + speaker.targetTime.hour + " * * " + speaker.targetTime.dayOfWeek
@@ -21,7 +23,7 @@ cron.schedule(timeStr, () => {
 app.listen(3000)
 
 function goodMorning() {
-
+	logger.info("in fxn")
     // Initialize Nancy
     var nancy = new Discord.Client({
        token: auth.token,
